@@ -108,4 +108,4 @@ with gr.Blocks(title="Canli Ligler AI Analiz") as arayuz:
     )
 
 if __name__ == "__main__":
-    arayuz.launch()
+    arayuz.launch(server_name="0.0.0.0", server_port=10000)
